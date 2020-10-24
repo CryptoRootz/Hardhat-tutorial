@@ -1,0 +1,8 @@
+npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+
+/**
+ * @type import('hardhat/config').HardhatUserConfig
+ */
+module.exports = {
+  solidity: "0.7.3",
+};
